@@ -1,8 +1,11 @@
-# CS2120-003 Fall 2021
+# Data Science Development Image for Docker
 
-A development environment based on Python and major data analytics and machine learning libraries.
+A development environment based on Python and major data analytics and machine learning libraries. Once your environment is running, just pen a terminal, cd
+into dev, and issue this command to activate a virtual environment providing all the major data science libraries: source bin/activate. You're up and running.
 
-## .,,.. the Yellow Brick Road
+Now, to get set up, just follow ...
+
+## ... the Yellow Brick Road
 
 - Update your operating system:
   - If MacOS: Be sure your OS is up-to-date.
@@ -47,13 +50,6 @@ You now have, up and running, the coolest mathematical development environment e
 
 - You're now editing in a running container with the following, among other things.
   - VSCode will be open and ready for you to start developing your applications with professional-quality infrastructure
-  - A containerized/virtual computer delivering a richly configured environment including the Lean Prover and its library of formalized mathematics (mathlib)
-    - Ubuntu 20.04 LTS operating system
-    - Python and major data science libraries
-    - Lean Prover Community, with mathlib (bonusware!)
-    - The Widely used VSCode IDE, configured for data science software engineering
-    - Root "shell" into Ubuntu-based containerized development OS platform
-    - VSCode operates on a clone of your repo created in your containerized OS
   - The entire development environment builds itself when you first follow these procedures
 - You are editing a clone of your repo at the container directory, /workspaces.
 

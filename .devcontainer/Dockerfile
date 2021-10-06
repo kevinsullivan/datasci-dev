@@ -10,4 +10,18 @@ FROM docker.io/kevinsullivan/leanvm
 # bug fix, please send a pull request to upstreeam.
 # If you don't know what that means, no worries, you
 # can just ignore it.
-#
+
+#RUN \
+#    pip install --upgrade pip
+
+RUN pip install beautifulsoup4 &&\
+    pip install requests &&\
+    pip install pandas &&\ 
+    python3 -m pip install --user jupyter sympy nose &&\
+    pip install seaborn ipython &&\
+    python3 -m pip install -U matplotlib &&\
+    pip install -U scikit-learn &&\
+    pip install RISE &&\
+    pip install gekko &&\
+    pip install keras &&\
+    pip install numpy
