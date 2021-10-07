@@ -20,8 +20,14 @@ RUN pip install beautifulsoup4 &&\
     python3 -m pip install --user jupyter sympy nose &&\
     pip install seaborn ipython &&\
     python3 -m pip install -U matplotlib &&\
-    pip install -U scikit-learn &&\
+    pip install scikit-learn &&\
     pip install RISE &&\
     pip install gekko &&\
     pip install keras &&\
-    pip install numpy
+    pip install numpy &&\
+    pip install plotly &&\
+    pip install torch &&\
+    pip install statsmodels &&\
+    pip install tensorflow &&\
+    pip install xgboost &&\
+    pip install gensim
