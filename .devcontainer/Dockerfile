@@ -30,4 +30,8 @@ RUN pip install beautifulsoup4 &&\
     pip install statsmodels &&\
     pip install tensorflow &&\
     pip install xgboost &&\
-    pip install gensim
+    pip install gensim &&\
+    pip install pygal &&\
+    pip install bokeh &&\
+    pip install pydot &&\
+    python3 -m pip install -U autopep8
