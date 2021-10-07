@@ -1,3 +1,19 @@
+"""
+============================
+Affine transform of an image
+============================
+
+Copied directly from tutorial site on web. KS.
+
+Prepending an affine transformation (`~.transforms.Affine2D`) to the :ref:`data
+transform <data-coords>` of an image allows to manipulate the image's shape and
+orientation.  This is an example of the concept of :ref:`transform chaining
+<transformation-pipeline>`.
+
+The image of the output should have its boundary match the dashed yellow
+rectangle.
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.transforms as mtransforms
@@ -47,3 +63,14 @@ do_plot(ax4, Z, mtransforms.Affine2D().
         rotate_deg(30).skew_deg(30, 15).scale(-1, .5).translate(.5, -1))
 
 plt.show()
+
+
+#############################################################################
+#
+# .. admonition:: References
+#
+#    The use of the following functions, methods, classes and modules is shown
+#    in this example:
+#
+#    - `matplotlib.axes.Axes.imshow` / `matplotlib.pyplot.imshow`
+#    - `matplotlib.transforms.Affine2D`
