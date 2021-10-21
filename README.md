@@ -1,9 +1,13 @@
 # Data Science Development Image for Docker
 
-A development environment based on Python and major data analytics and machine learning libraries. Once your environment is running, just pen a terminal, cd
-into dev, and issue this command to activate a virtual environment providing all the major data science libraries: source bin/activate. You're up and running.
+A development environment based on Python and major data analytics and machine learning libraries. Once your environment is running, open a terminal, cd
+into the dev directory, and issue this command to activate a virtual environment providing all the major data science libraries: 
 
-Now, to get set up, just follow ...
+``` sh
+source bin/activate
+```
+
+To get there, just follow the ...
 
 ## ... the Yellow Brick Road
 
@@ -34,8 +38,8 @@ Now, to get set up, just follow ...
   - Use CTRL/CMD-SHIFT-P to bring up the VSCode command palatte.
   - Search for and select *Clone Repository in Container Volume*
   - Paste in the GitHub URL of your new clone as the argument.
-  - If you're asked to choose something, select *named repository*.
-- Now wait while your environment is built. You can click in the lower right to see the build process if you want. Wait for the building activity to end and for your environment to "boot up" before taking any further actions. There is a status bar at the bottom of the screen that reflects build processes status and activities.
+  - If you're asked to choose something, select *named repository* (and give a name, .e.g., datasci_dev).
+- Now wait while your environment is built. It will take much longer on the initial install than on future startups. You can click in the lower right to see the build process if you want. Wait for the building activity to end and for your environment to "boot up" before taking any further actions. There is a status bar at the bottom of the screen that reflects build processes status and activities. Note that even after the OS and applications are installed and the terminal says you're done, VS code packages continue to be installed. Wait for the environment to be fully installed, as indicated by various display widgets on your screen.
 - Check to see that things seem to be working (e.g., launch terminal)
 - Configure git on your new containerized operating system
   - Open a new Terminal window in VSCode
@@ -44,14 +48,7 @@ Now, to get set up, just follow ...
     - git config --global user.email "your@email.here"
 - You may now work in and exit from VSCode as you wish. VSCode will let you re-open this project when you're ready to work on it again.
 
-You now have, up and running, the coolest mathematical development environment ever. You're done here now!
-
-## Configuration details
-
-- You're now editing in a running container with the following, among other things.
-  - VSCode will be open and ready for you to start developing your applications with professional-quality infrastructure
-  - The entire development environment builds itself when you first follow these procedures
-- You are editing a clone of your repo at the container directory, /workspaces.
+You now have, up and running, the potentially coolest data science environment ever. You're done!
 
 ## If you find a problem or an opportunity
 
